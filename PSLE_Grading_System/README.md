@@ -1,6 +1,6 @@
-# PSLE Grading System
+# PSLE Score Generator
 
-Write a Python program that takes the scores for Mathematics, Science, English, Mother Tongue and Higher Mother Tongue as input from the user. Based on their scores, determine the Achievement Levels (ALs) for each subject using the 8 ALs scoring bands. 
+This is a Python program that takes the scores for Mathematics, Science, English, Mother Tongue and Higher Mother Tongue as input from the user. Based on their scores, determine the Achievement Levels (ALs) for each subject using the 8 ALs scoring bands. 
 
 **The ALs for the mark range will be as follows:**
 * 90 & Above = AL1
@@ -24,3 +24,7 @@ Then, add together the AL of the 4 subjects to form the PSLE score, which ranges
 * 23 - 24 = Normal (Academic)
 * 25 = Normal (Academic) / Normal (Technical)
 * 26-30 = Normal (Technical) with AL7 or better in both English and Math
+<br>
+
+## **Output of the program:**
+<img src="https://github.com/YvonneLipLim/Images/blob/main/PLSE%20Score%20Generator%20Results.png">
