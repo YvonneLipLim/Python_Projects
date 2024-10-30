@@ -18,3 +18,11 @@ The last letter is obtained from the seven (7) digits using the modules eleven m
    
     <img src="https://github.com/YvonneLipLim/Images/blob/main/Checksum_Table.png">
 <br>
+<br>
+
+# Output of the program:
+As part of the Personal Data Protection Act, the first letter and the next 4 numerical digits are masked.
+Leaving only the last three numerical digits and checksum of that number (e.g. "567D") to be displayed.
+
+
+<img src="https://github.com/YvonneLipLim/Images/blob/main/NRIC_Output.png">
