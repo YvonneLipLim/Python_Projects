@@ -53,7 +53,7 @@ def validate_nric(nric_number):
 def main():
     nric_number = input("Please enter your NRIC number (S, T, F, or G + 7 digits + alphabet): ")
     is_valid = validate_nric(nric_number)
-    masked_nric = '*' * 5 + nric_number[5:]
+    masked_nric = '*' * 5 + nric_number[5:]  #Mask the initial letter + first 4 digits for PDPA reason.
     print(f"NRIC number {masked_nric} is valid: {is_valid}")
 
 if __name__ == "__main__":
