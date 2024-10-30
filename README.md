@@ -6,4 +6,6 @@ Doing Python mini-projects is the ultimate way to learn the language. Not only r
 
 # Python Project Ideas:
 1. **PSLE Scoring Generator**: taking the scores from the users to generate the 8 scoring bands of the Achievement Levels (ALs), grading for Higher Mother Tongue and the placement stream
-2. **Treasure Island Adventure**: a text-based adventure game with the player making choices at each turn. The choices determine the outcome of the game. 
+2. **Treasure Island Adventure**: a text-based adventure game with the player making choices at each turn. The choices determine the outcome of the game.
+3. **Auto-fill Google Form**: using Selenium Python to automate web browser interactions.
+4. **Validity of Singapore Identity Card (NRIC)**: calculate the checksum (last character) to verify the validity of the NRIC.
