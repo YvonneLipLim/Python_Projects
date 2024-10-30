@@ -16,5 +16,7 @@ The last letter is obtained from the seven (7) digits using the modules eleven m
 5. ADD 1 to the REMAINDER AND SUBTRACT it from 11 to get CHECK DIGIT.
     <img src="https://github.com/YvonneLipLim/Images/blob/main/CheckSum.png">
   
-7. Use CHECK DIGIT to get CHECKSUM from the below corresponding letter table:
+6. Use CHECK DIGIT to get CHECKSUM from the below corresponding letter table:
+   
     <img src="https://github.com/YvonneLipLim/Images/blob/main/Letter_Table.png">
+<br>
