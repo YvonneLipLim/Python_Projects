@@ -11,7 +11,7 @@ alphabet_table_g = {0: "R", 1: "T", 2: "U", 3: "W", 4: "X", 5: "K", 6: "L", 7: "
 
 def checksum(nric_number):
     """Checksum of the first 7 digits of the given NRIC number."""
-    weights = [2, 7, 6, 5, 4, 3, 2] #NRIC weight table for computing checksum
+    weights = [2, 7, 6, 5, 4, 3, 2] #NRIC weight table for computing the checksum
     sum_of_products = sum(int(digit) * weight for digit, weight in zip(nric_number, weights))
     remainder = sum_of_products % 11
     checksum = 11 - remainder if remainder != 0 else 0  
@@ -20,8 +20,8 @@ def checksum(nric_number):
 
 def check_last_letter(check_digit, nric_type):
     """
-    Get corresponding alphabet based on the alphabet look-up table.
-    This function retrieves corresponding alphabet from the look-up table based on NRIC types (S, T, F, G)
+    Get the corresponding alphabet based on the alphabet look-up table.
+    This function retrieves the corresponding alphabet from the look-up table based on NRIC types (S, T, F, G)
     and computed check digit. 
     """
     if nric_type == "S":
@@ -33,7 +33,7 @@ def check_last_letter(check_digit, nric_type):
     elif nric_type == "G":
         alphabet_table = alphabet_table_g
     else:
-        return "Invalid NRIC" #If check digit is not valid (not between 0 and 10)
+        return "Invalid NRIC" #If the check digit is not valid (not between 0 and 10)
     
     return alphabet_table.get(check_digit, "Invalid NRIC")
 
